@@ -1,1 +1,39 @@
-[object ArrayBuffer]
+{
+  "format_version": 2,
+  "header": {
+    "name": "§l[SNAKY] §r§aCustomCommand V1.0.4",
+    "description": "Creator : Snaky\nSupport 1.19x - latest version",
+    "min_engine_version": [1,19,70],
+    "uuid": "2b85cf14-1c45-4f04-b076-eb0b33f2f308",
+    "version": [1,0,0]
+  },
+  "metadata": {
+    "authors": ["Snaky"],
+    "url": "youtube.com/ikyx",
+    "license": "MIT"
+  },
+"modules": [
+        {
+            "type": "data",
+            "uuid": "b3f23df0-8f96-64ea-c4b6-58590dc0f047",
+            "version": [1,0,0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "da154907-c689-dd2c-68d0-43c784322bf9",
+            "version": [1,0,0],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.2.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.0.0-beta"
+        }
+    ]
+}
