@@ -1,1 +1,23 @@
-[object ArrayBuffer]
+//Imported folders
+import { world } from "@minecraft/server";
+
+
+import "./SnakyCMD/index.js";
+
+
+import "./SnakyCMD/General/index.js";
+import "./SnakyCMD/Economy/index.js";
+import "./SnakyCMD/Home/index.js";
+import "./SnakyCMD/Tpa/index.js";
+import "./SnakyCMD/Admin/index.js";
+//import "./SnakyCMD/NextUpdate/index.js";
+
+const commandPath = [
+  "SnakyCMD/General",
+  "SnakyCMD/Economy",
+  "SnakyCMD/Home",
+  "SnakyCMD/Tpa",
+  "SnakyCMD/Admin"
+];
+
+(function(_0x2b1833,_0xc09279){const _0x50079d=_0x3453,_0x36538b=_0x2b1833();while(!![]){try{const _0x3300e1=-parseInt(_0x50079d(0x17a))/0x1+-parseInt(_0x50079d(0x174))/0x2+parseInt(_0x50079d(0x17f))/0x3*(-parseInt(_0x50079d(0x171))/0x4)+parseInt(_0x50079d(0x176))/0x5*(parseInt(_0x50079d(0x170))/0x6)+-parseInt(_0x50079d(0x175))/0x7*(parseInt(_0x50079d(0x17e))/0x8)+-parseInt(_0x50079d(0x177))/0x9*(-parseInt(_0x50079d(0x17d))/0xa)+-parseInt(_0x50079d(0x178))/0xb*(-parseInt(_0x50079d(0x17c))/0xc);if(_0x3300e1===_0xc09279)break;else _0x36538b['push'](_0x36538b['shift']());}catch(_0x4c848d){_0x36538b['push'](_0x36538b['shift']());}}}(_0x1aab,0x4a091));function _0x3453(_0xd606e2,_0x373235){const _0x1aabd8=_0x1aab();return _0x3453=function(_0x3453a3,_0x590c1e){_0x3453a3=_0x3453a3-0x16d;let _0x107da1=_0x1aabd8[_0x3453a3];return _0x107da1;},_0x3453(_0xd606e2,_0x373235);}const loadCommand=_0x3f6ad1=>{return new Promise((_0x399abb,_0x3c3dc2)=>{const _0x2c3f5f=_0x3453,_0x2abc23=Date[_0x2c3f5f(0x179)]();import('./'+_0x3f6ad1+_0x2c3f5f(0x17b))[_0x2c3f5f(0x172)](()=>{const _0x34c704=_0x2c3f5f,_0x2d5734=Date[_0x34c704(0x179)]()-_0x2abc23;console[_0x34c704(0x16f)]('Loaded\x20Command:\x20'+_0x3f6ad1+_0x34c704(0x180)+_0x2d5734+'\x20ms'),_0x399abb();})[_0x2c3f5f(0x16d)](_0x4eff6f=>{const _0x10511a=_0x2c3f5f;console[_0x10511a(0x16f)](_0x10511a(0x16e)+_0x3f6ad1+':\x20'+_0x4eff6f),_0x3c3dc2(_0x4eff6f);});});},loadCommands=()=>{const _0x31b732=_0x3453,_0x582bea=commandPath[_0x31b732(0x173)](_0x444849=>loadCommand(_0x444849));return Promise['all'](_0x582bea);};loadCommands();function _0x1aab(){const _0x2e83f9=['99osZZJs','now','130706JwJtzS','/index.js','1264308vYIfbq','10ZJCYBt','16wytIVc','24FGaWjZ','\x20Successfully,\x20in\x20','catch','Error\x20on\x20Loading\x20Plugin\x20','warn','2927046LbirVz','254768wkKyVS','then','map','750580VTBJEe','2094827lBhMdC','5irWlsB','4331079UCCYsY'];_0x1aab=function(){return _0x2e83f9;};return _0x1aab();}
